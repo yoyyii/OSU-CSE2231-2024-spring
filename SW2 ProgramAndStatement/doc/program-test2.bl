@@ -1,0 +1,17 @@
+PROGRAM test2 IS
+
+  INSTRUCTION one IS
+     turnright
+     move
+  END one
+
+BEGIN
+    WHILE true DO
+        IF next-is-empty THEN
+            move
+        ELSE
+            turnleft
+        END IF
+        one
+    END WHILE
+END test2

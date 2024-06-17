@@ -1,0 +1,22 @@
+PROGRAM test1 IS
+
+  INSTRUCTION one IS
+     move
+     turnleft
+     move
+  END one
+  
+  INSTRUCTION two IS
+    turnleft
+    move
+    turnleft
+  END two
+
+BEGIN
+  WHILE true DO
+    one
+    two
+    turn right
+  END WHILE
+END test1
+
