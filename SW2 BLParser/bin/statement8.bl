@@ -1,0 +1,9 @@
+WHILE true DO
+  skip
+  WHILE next-is-enemy DO
+    move
+    WHILE next-is-wall DO
+      turnleft
+    END WHILE 
+  END WHILE 
+END WHILE 

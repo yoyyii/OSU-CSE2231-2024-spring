@@ -1,0 +1,6 @@
+IF next-is-enemy THEN
+  IF random THEN
+  END IF
+END IF
+skip
+move

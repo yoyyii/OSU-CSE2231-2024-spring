@@ -1,0 +1,7 @@
+WHILE true DO
+  this&is&not&a&identifier
+  IF random THEN
+    turnleft
+  END IF
+  skip
+END WHILE

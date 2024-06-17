@@ -1,0 +1,4 @@
+IF next-is-enemy THEN
+ELSE
+END IF
+skip

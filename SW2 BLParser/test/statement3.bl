@@ -1,0 +1,13 @@
+IF random THEN
+  IF next-is-not-enemy THEN
+    turnleft
+  ELSE
+    turnright
+  END IF
+ELSE
+  IF next-is-not-enemy THEN
+    turnleft
+  ELSE
+    turnright
+  END IF
+END IF

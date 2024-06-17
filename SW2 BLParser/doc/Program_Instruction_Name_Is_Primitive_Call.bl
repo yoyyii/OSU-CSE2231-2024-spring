@@ -1,0 +1,15 @@
+PROGRAM Test IS
+
+INSTRUCTION skip IS
+     move
+     turnleft
+END skip
+
+BEGIN
+  infect
+  WHILE true DO
+    IF next-is-empty THEN
+      move
+    END IF
+  END WHILE
+END Test

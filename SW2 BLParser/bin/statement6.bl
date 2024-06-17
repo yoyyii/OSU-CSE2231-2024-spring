@@ -1,0 +1,10 @@
+IF next-is-enemy THEN
+  skip
+  IF random THEN
+    turnright
+    IF next-is-wall THEN
+      move
+    END IF
+  END IF
+END IF
+
