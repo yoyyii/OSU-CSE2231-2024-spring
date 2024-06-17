@@ -1,0 +1,12 @@
+WHILE next-is-empty DO
+    move
+END WHILE
+
+WHILE true DO
+    IF next-is-enemy THEN
+        infect
+    ELSE
+        turnleft
+    END IF
+END WHILE
+        

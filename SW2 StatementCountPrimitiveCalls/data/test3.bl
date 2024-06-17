@@ -1,0 +1,21 @@
+move
+move
+random-thing
+
+IF next-is-empty THEN
+    turnleft
+Else
+    turnright
+END IF
+
+WHILE true DO
+    infect
+    infect
+    turnright
+    random-thing
+END WHILE
+
+skip
+
+
+        
